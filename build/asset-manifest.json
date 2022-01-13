@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d53711a.chunk.css",
-    "main.js": "/static/js/main.704ada0a.chunk.js",
-    "main.js.map": "/static/js/main.704ada0a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d569da80.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d569da80.js.map",
-    "static/css/2.9ebce5d5.chunk.css": "/static/css/2.9ebce5d5.chunk.css",
-    "static/js/2.c2800641.chunk.js": "/static/js/2.c2800641.chunk.js",
-    "static/js/2.c2800641.chunk.js.map": "/static/js/2.c2800641.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.9ebce5d5.chunk.css.map": "/static/css/2.9ebce5d5.chunk.css.map",
-    "static/css/main.9d53711a.chunk.css.map": "/static/css/main.9d53711a.chunk.css.map",
-    "static/js/2.c2800641.chunk.js.LICENSE.txt": "/static/js/2.c2800641.chunk.js.LICENSE.txt"
+    "main.css": "/amolbarkale/cryptocontrol/static/css/main.9d53711a.chunk.css",
+    "main.js": "/amolbarkale/cryptocontrol/static/js/main.704ada0a.chunk.js",
+    "main.js.map": "/amolbarkale/cryptocontrol/static/js/main.704ada0a.chunk.js.map",
+    "runtime-main.js": "/amolbarkale/cryptocontrol/static/js/runtime-main.293d79ce.js",
+    "runtime-main.js.map": "/amolbarkale/cryptocontrol/static/js/runtime-main.293d79ce.js.map",
+    "static/css/2.9ebce5d5.chunk.css": "/amolbarkale/cryptocontrol/static/css/2.9ebce5d5.chunk.css",
+    "static/js/2.e67f6ee0.chunk.js": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js",
+    "static/js/2.e67f6ee0.chunk.js.map": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js.map",
+    "index.html": "/amolbarkale/cryptocontrol/index.html",
+    "static/css/2.9ebce5d5.chunk.css.map": "/amolbarkale/cryptocontrol/static/css/2.9ebce5d5.chunk.css.map",
+    "static/css/main.9d53711a.chunk.css.map": "/amolbarkale/cryptocontrol/static/css/main.9d53711a.chunk.css.map",
+    "static/js/2.e67f6ee0.chunk.js.LICENSE.txt": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d569da80.js",
+    "static/js/runtime-main.293d79ce.js",
     "static/css/2.9ebce5d5.chunk.css",
-    "static/js/2.c2800641.chunk.js",
+    "static/js/2.e67f6ee0.chunk.js",
     "static/css/main.9d53711a.chunk.css",
     "static/js/main.704ada0a.chunk.js"
   ]
