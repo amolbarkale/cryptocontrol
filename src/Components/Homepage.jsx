@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Typography, Row, Col, Statistic } from "antd";
 import { useGetCryptosQuery } from "../Services/cryptoApi";
 import millify from "millify";
@@ -9,7 +9,6 @@ const { Title } = Typography;
 
 export default function Homepage() {
   const { data, isFetching } = useGetCryptosQuery(10);
-  console.log("data:", data);
 
   const globalStats = data?.data?.stats;
   if (isFetching) {

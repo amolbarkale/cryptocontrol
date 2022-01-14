@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/amolbarkale/cryptocontrol/static/css/main.9d53711a.chunk.css",
-    "main.js": "/amolbarkale/cryptocontrol/static/js/main.704ada0a.chunk.js",
-    "main.js.map": "/amolbarkale/cryptocontrol/static/js/main.704ada0a.chunk.js.map",
-    "runtime-main.js": "/amolbarkale/cryptocontrol/static/js/runtime-main.293d79ce.js",
-    "runtime-main.js.map": "/amolbarkale/cryptocontrol/static/js/runtime-main.293d79ce.js.map",
-    "static/css/2.9ebce5d5.chunk.css": "/amolbarkale/cryptocontrol/static/css/2.9ebce5d5.chunk.css",
-    "static/js/2.e67f6ee0.chunk.js": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js",
-    "static/js/2.e67f6ee0.chunk.js.map": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js.map",
-    "index.html": "/amolbarkale/cryptocontrol/index.html",
-    "static/css/2.9ebce5d5.chunk.css.map": "/amolbarkale/cryptocontrol/static/css/2.9ebce5d5.chunk.css.map",
-    "static/css/main.9d53711a.chunk.css.map": "/amolbarkale/cryptocontrol/static/css/main.9d53711a.chunk.css.map",
-    "static/js/2.e67f6ee0.chunk.js.LICENSE.txt": "/amolbarkale/cryptocontrol/static/js/2.e67f6ee0.chunk.js.LICENSE.txt"
+    "main.css": "/cryptocontrol/static/css/main.9d53711a.chunk.css",
+    "main.js": "/cryptocontrol/static/js/main.704ada0a.chunk.js",
+    "main.js.map": "/cryptocontrol/static/js/main.704ada0a.chunk.js.map",
+    "runtime-main.js": "/cryptocontrol/static/js/runtime-main.f441796a.js",
+    "runtime-main.js.map": "/cryptocontrol/static/js/runtime-main.f441796a.js.map",
+    "static/css/2.9ebce5d5.chunk.css": "/cryptocontrol/static/css/2.9ebce5d5.chunk.css",
+    "static/js/2.050e47c5.chunk.js": "/cryptocontrol/static/js/2.050e47c5.chunk.js",
+    "static/js/2.050e47c5.chunk.js.map": "/cryptocontrol/static/js/2.050e47c5.chunk.js.map",
+    "index.html": "/cryptocontrol/index.html",
+    "static/css/2.9ebce5d5.chunk.css.map": "/cryptocontrol/static/css/2.9ebce5d5.chunk.css.map",
+    "static/css/main.9d53711a.chunk.css.map": "/cryptocontrol/static/css/main.9d53711a.chunk.css.map",
+    "static/js/2.050e47c5.chunk.js.LICENSE.txt": "/cryptocontrol/static/js/2.050e47c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.293d79ce.js",
+    "static/js/runtime-main.f441796a.js",
     "static/css/2.9ebce5d5.chunk.css",
-    "static/js/2.e67f6ee0.chunk.js",
+    "static/js/2.050e47c5.chunk.js",
     "static/css/main.9d53711a.chunk.css",
     "static/js/main.704ada0a.chunk.js"
   ]

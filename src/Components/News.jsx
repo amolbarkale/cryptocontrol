@@ -18,7 +18,6 @@ export default function News({ simplified }) {
 
   const demo =
     "https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News";
-  console.log("cryptoNews:", cryptoNews);
 
   if (!cryptoNews?.value) return "Loading...";
 

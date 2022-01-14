@@ -32,6 +32,7 @@ export default function CryptoDetails() {
     coinId,
     timeperiod,
   });
+
   const cryptoDetails = data?.data?.coin;
 
   if (isFetching) return "Loader...";
@@ -103,6 +104,8 @@ export default function CryptoDetails() {
       icon: <ExclamationCircleOutlined />,
     },
   ];
+
+  console.log("coinHistory1:", coinHistory);
 
   return (
     <Col className="coin-detail-container">

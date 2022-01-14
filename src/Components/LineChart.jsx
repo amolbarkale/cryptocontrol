@@ -34,10 +34,8 @@ export default function LineChart({ coinHistory, currentPrice, coinName }) {
     );
     coinPrice.push(coinHistory.data.history[i].price);
   }
-
-  for (let i = 0; i < coinHistory?.data?.history?.length; i++) {
-    coinPrice.push(coinHistory.data.history[i].price);
-  }
+  console.log("coinPriceafter:", coinPrice);
+  console.log("coinTimestampafter:", coinTimestamp);
 
   const data = {
     labels: coinTimestamp,
@@ -54,6 +52,7 @@ export default function LineChart({ coinHistory, currentPrice, coinName }) {
 
   const options = {
     scales: {
+      display: true,
       yAxes: [
         {
           ticks: {
@@ -68,7 +67,7 @@ export default function LineChart({ coinHistory, currentPrice, coinName }) {
     <>
       <Row className="chart-header">
         <Typography.Title level={2} className="chart-title">
-          {coinName} Price Chart{" "}
+          {coinName} Price Chart
         </Typography.Title>
         <Col className="price-container">
           <Typography.Title level={5} className="price-change">
