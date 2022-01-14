@@ -25,19 +25,21 @@ ChartJS.register(
 // const { Title } = Typography;
 
 export default function LineChart({ coinHistory, currentPrice, coinName }) {
+  console.log("coinHistory:", coinHistory.data);
   const coinPrice = [];
   const coinTimestamp = [];
 
-  for (let i = 0; i < coinHistory?.data?.history?.length; i++) {
+  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
+    coinPrice.push(coinHistory.data.history[i].price);
+  }
+
+  for (let i = 0; i < coinHistory?.data?.history?.length; i += 1) {
     coinTimestamp.push(
       new Date(coinHistory.data.history[i].timestamp).toLocaleDateString()
     );
-    coinPrice.push(coinHistory.data.history[i].price);
   }
-  console.log("coinPriceafter:", coinPrice);
-  console.log("coinTimestampafter:", coinTimestamp);
 
-  const data = {
+  let data = {
     labels: coinTimestamp,
     datasets: [
       {
@@ -50,9 +52,8 @@ export default function LineChart({ coinHistory, currentPrice, coinName }) {
     ],
   };
 
-  const options = {
+  let options = {
     scales: {
-      display: true,
       yAxes: [
         {
           ticks: {
