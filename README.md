@@ -1,6 +1,8 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Live demo : https://amolbarkale.github.io/cryptocontrol/
+
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
